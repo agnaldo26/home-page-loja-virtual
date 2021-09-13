@@ -50,7 +50,7 @@
     </header>
 
     <section id="banner">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme" id="carousel-banner">
             <div class="item item-banner">
                 <p class="text-banner">
                     <span id="advertising-main">Olá, você quer fazer entrar de cabeça em desenvolvimento?</span>
@@ -63,7 +63,9 @@
             <div class="item item-banner">>
                 <p class="text-banner">
                     <span class="topic">Front-end</span>
-                    <span class="advertising">O frontend é tudo aquilo que se consegue ver e interagir. Esse é o profissional que cria todo o visual do produto digital e será o primeiro contato do usuário com o mesmo.</span>
+                    <span class="advertising">O frontend é tudo aquilo que se consegue ver e interagir. Esse é o
+                        profissional que cria todo o visual do produto digital e será o primeiro contato do usuário com
+                        o mesmo.</span>
                 </p>
                 <img src="./assets/img-banner.svg" alt="banner" class="img-banner">
             </div>
@@ -71,7 +73,9 @@
             <div class="item item-banner">>
                 <p class="text-banner">
                     <span class="topic">Back-end</span>
-                    <span class="advertising">O profissional que lida com os sites e programas através de uma das linguagens de programação. Ele organiza as informações que o internauta não terá acesso e atua na segurança de dados e na integração com webservices.</span>
+                    <span class="advertising">O profissional que lida com os sites e programas através de uma das
+                        linguagens de programação. Ele organiza as informações que o internauta não terá acesso e atua
+                        na segurança de dados e na integração com webservices.</span>
                 </p>
                 <img src="./assets/img-banner.svg" alt="banner" class="img-banner">
             </div>
@@ -79,27 +83,135 @@
             <div class="item item-banner">>
                 <p class="text-banner">
                     <span class="topic">Mobile</span>
-                    <span class="advertising">O desenvolvedor mobile é o responsável por tornar os smartphones ferramentas verdadeiramente funcionais, integrando ferramentas, implementando arquiteturas e outros recursos.</span>
+                    <span class="advertising">O desenvolvedor mobile é o responsável por tornar os smartphones
+                        ferramentas verdadeiramente funcionais, integrando ferramentas, implementando arquiteturas e
+                        outros recursos.</span>
                 </p>
                 <img src="./assets/img-banner.svg" alt="banner" class="img-banner">
             </div>
         </div>
     </section>
 
-    <section id="shelf">
+    <section id="best-sellers">
         <h3>Mais vendidos</h3>
-        <div class="owl-carousel owl-theme">
+        <img src="./assets/line-yellow.svg" alt="" class="line-yellow">
+        <div class="owl-carousel owl-theme" id="carousel-shelf">
             <div class="item card-product">
-                <img src="./assets/shoe.svg" alt="sapato">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
                 <span class="title-product">SAPATO FLOATER PRETO</span>
                 <img src="./assets/rating.svg" alt="avaliaçao">
                 <span class="old-price">de R$ 299,00</span>
                 <span class="new-price">por R$ 259,90</span>
                 <span class="alternative-price">ou em 9x de R$ 28,87</span>
-                <div class="div-buy">
-                    <img src="./assets/whatsapp-logo.svg" alt="">
-                    <span class="buy">COMPRAR</span>
-                </div>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
+            </div>
+            <div class="item card-product">
+                <img src="./assets/shoe.svg" alt="sapato" class="img-product">
+                <span class="title-product">SAPATO FLOATER PRETO</span>
+                <img src="./assets/rating.svg" alt="avaliaçao">
+                <span class="old-price">de R$ 299,00</span>
+                <span class="new-price">por R$ 259,90</span>
+                <span class="alternative-price">ou em 9x de R$ 28,87</span>
+                <button class="btn-buy">
+                    <a href='https://api.whatsapp.com/send?l=pt_BR%phone="55012997049359"' target="_blank"
+                        rel="noopener noreferrer" class="link-buy"><img src="./assets/whatsapp-logo.svg" alt="" class="img-whatsapp">
+                        <span class="buy">COMPRAR</span></a>
+                </button>
             </div>
         </div>
     </section>

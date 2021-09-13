@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual GoBeyond</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://conteudo.corebiz.ag/gobeyond-3-edicao" target="_black"><img
+                src="./assets/gobeyond_logo_white.svg" alt="Logo GoBeyond"></a>
+        <nav>
+            <a href="./index.html">Home</a>
+            <select name="categoria-sapatos" id="select-categoria-sapatos">
+                <option value="">Categoria 1: sapatos</option>
+                <option value="floater"><a href="">Floater</a></option>
+                <option value="tenis"><a href="">Tênis</a></option>
+                <option value="sapatenis"><a href="">Sapatênis</a></option>
+            </select>
+            <select name="categoria-calcas" id="select-categoria-calcas">
+                <option value=""><a href="">Categoria 2: calças</a></option>
+                <option value="slim"><a href="">Slim</a></option>
+                <option value="pantalona"><a href="">Pantalona</a></option>
+                <option value="flare"><a href="">Flare</a></option>
+            </select>
+            <a href="">Contato</a>
+        </nav>
+
+        <div id="search">
+            <input type="search" placeholder="O que está procurando?">
+            <img src="./assets/img-search.svg" alt="lupa" id="img-search">
+        </div>
+
+        <a href="">Minha conta</a>
+
+        <img src="./assets/img-cart.svg" alt="carrinho" id="img-cart">
+
+    </header>
+
+    <section id="banner">
+        <div class="owl-carousel owl-theme">
+            <div class="item item-banner">
+                <p class="text-banner">
+                    <span id="advertising-main">Olá, você quer fazer entrar de cabeça em desenvolvimento?</span>
+                    <br>
+                    <span id="topics-main">front-end • back-end • mobile</span>
+                </p>
+                <img src="./assets/img-banner.svg" alt="banner" class="img-banner">
+            </div>
+
+            <div class="item item-banner">>
+                <p class="text-banner">
+                    <span class="topic">Front-end</span>
+                    <span class="advertising">O frontend é tudo aquilo que se consegue ver e interagir. Esse é o profissional que cria todo o visual do produto digital e será o primeiro contato do usuário com o mesmo.</span>
+                </p>
+                <img src="./assets/img-banner.svg" alt="banner" class="img-banner">
+            </div>
+
+            <div class="item item-banner">>
+                <p class="text-banner">
+                    <span class="topic">Back-end</span>
+                    <span class="advertising">O profissional que lida com os sites e programas através de uma das linguagens de programação. Ele organiza as informações que o internauta não terá acesso e atua na segurança de dados e na integração com webservices.</span>
+                </p>
+                <img src="./assets/img-banner.svg" alt="banner" class="img-banner">
+            </div>
+
+            <div class="item item-banner">>
+                <p class="text-banner">
+                    <span class="topic">Mobile</span>
+                    <span class="advertising">O desenvolvedor mobile é o responsável por tornar os smartphones ferramentas verdadeiramente funcionais, integrando ferramentas, implementando arquiteturas e outros recursos.</span>
+                </p>
+                <img src="./assets/img-banner.svg" alt="banner" class="img-banner">
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script src="./js/owl/jquery.min.js"></script>
+<script src="./js/owl/owl.carousel.min.js"></script>
+<script src="./js/setup-carousel.js"></script>
+
+</html>

@@ -26,16 +26,11 @@ a{
 
 button{
     border: none;
+    cursor: pointer;
 }
 
-/*tira algum estilo padrão do input*/
-input:focus,input:active {
-    outline: none;
-    box-shadow: none;
-}
-
-/*tira algum estilo padrão do select*/
-select:focus,select:active {
+/*tira algum estilo padrão*/
+input:focus,input:active, select:focus,select:active  {
     outline: none;
     box-shadow: none;
 }
@@ -165,11 +160,10 @@ h3{
     border-radius: 5px;
     padding: .5em 1.25em .5em .5em;
     color: #ffffff;
-    cursor: pointer;
 }
 
 .btn-buy:hover{
-    opacity: .5;
+    opacity: .7;
 }
 
 .link-buy{
@@ -181,4 +175,71 @@ h3{
 
 .img-whatsapp{
     height: 100%;
+}
+
+#news-desk-off, #confirmation-register{
+    background-color: #F2F2F2;
+    margin-top: 4vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 146px;
+    font-family: 'Lato', sans-serif;
+}
+
+#title-news-desk-off{
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: .5em;
+}
+
+#name, #email{
+    height: 48px;
+    width: 280px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 1em 0 1em;
+    margin-right: .5em;
+}
+
+#name:focus,#name:active, #email:focus,#email:active  {
+    border: 1px solid #BDBDBD;
+}
+
+#submit{
+    background-color: #E9BF33;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 140px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+#register-email:invalid #submit{
+    opacity: .5;
+    cursor: default;
+}
+
+#title-confirmation-register{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#text-confirmation-register{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#btn-reset{
+    background-color: #000000;
+    width: 325px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 1em;
 }

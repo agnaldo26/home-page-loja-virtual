@@ -129,7 +129,6 @@ h3{
     align-items: center;
     justify-content: space-around;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-bottom: 5em,
 }
 
 .img-product{
@@ -235,4 +234,51 @@ h3{
     color: #ffffff;
     border-radius: 5px;
     margin-top: 1em;
+}
+
+footer{
+    height: 213px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+address{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#localization{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: default;
+}
+
+.line-yellow{
+    width: 44.94px;
+    height: 5px;
+}
+
+#localization addres p {
+    font-size: 13px;
+    margin-bottom: .5em;
+}
+
+#localization addres #title-localization{
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact a:nth-child(2){
+    margin-top: 3em;
 }

@@ -10,8 +10,8 @@ $('#carousel-banner').owlCarousel({
 $('#carousel-shelf').owlCarousel({
     loop:true,
     nav:true,
-    items: 3,
-    slideBy: 3,
+    items: 4,
+    slideBy: 4,
     autoplay: true,
     autoplayTimeout: 8000,
     autoplayHoverPause: true,

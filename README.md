@@ -17,3 +17,6 @@ Para a construção da home page foram utilizadas as tecnologias:
 - CSS;
 - JavaScript;
 - Owl Caroulsel.
+
+# link Netlify
+O prjeto está hospedado no Netlify: https://home-page-gobeyond.netlify.app/

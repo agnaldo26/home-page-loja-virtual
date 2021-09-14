@@ -17,7 +17,11 @@ header{
     font-size: 13px;
 }
 
-#img-menu, #logo-corebiz{
+#logo-corebiz{
+    display: none;
+}
+
+menu{
     display: none;
 }
 
@@ -376,16 +380,19 @@ address{
         right: auto;
     }
 
-    #img-menu{
+    menu{
         display: inline;
+    }
+
+    #img-menu{
         cursor: pointer;
     }
     
     #div-menu{
         display: none;
-        position: fixed;
-        z-index: 2;
-        background-color: #F2F2F2;
+        position: absolute;
+        z-index: 3;
+        background-color: #E9BF33;
         border-radius: 20px;
     }
     
@@ -403,11 +410,20 @@ address{
     #opcoes-menu span{
         cursor: pointer;
         font-size: 16px;
+        font-weight: 400;
+    }
+
+    #opcoes-menu span a{
+        color:#000000;
         font-weight: 600;
     }
     
     #img-cart{
         margin: 0;
+    }
+
+    #contact a:nth-child(2){
+        margin-top: 1em;
     }
 
 }

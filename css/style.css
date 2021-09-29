@@ -25,7 +25,7 @@ menu{
     display: none;
 }
 
-nav{
+#nav-desktop{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,7 +37,7 @@ a{
     cursor: pointer;
 }
 
-nav a{
+#nav-desktop a{
     color: #333333;
 }
 
@@ -397,7 +397,7 @@ address{
     }
     
     
-    #opcoes-menu{
+    #nav-mobile{
         display:flex;
         color:#000000;
         flex-direction: column;
@@ -407,13 +407,13 @@ address{
         text-align: center;
     }
 
-    #opcoes-menu span{
+    #nav-mobile span{
         cursor: pointer;
         font-size: 16px;
         font-weight: 400;
     }
 
-    #opcoes-menu span a{
+    #nav-mobile span a{
         color:#000000;
         font-weight: 600;
     }
